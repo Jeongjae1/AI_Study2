@@ -1,5 +1,5 @@
 {
-  "day": 2,
+  "day": 3,
   "stage": "1단계 입문",
   "topics": [
     {
@@ -15,6 +15,13 @@
       "topic": "머신러닝의 3대 학습 유형",
       "stage": "1단계 입문",
       "next_preview": "데이터와 특성(Feature)의 개념 학습하기"
+    },
+    {
+      "day": 3,
+      "date": "2026-07-29",
+      "topic": "데이터와 특성(Feature)",
+      "stage": "1단계 입문",
+      "next_preview": "과적합(Overfitting)의 이해"
     }
   ]
 }
