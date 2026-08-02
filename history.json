@@ -1,5 +1,5 @@
 {
-  "day": 5,
+  "day": 6,
   "stage": "2단계 기초 ML",
   "topics": [
     {
@@ -36,6 +36,13 @@
       "topic": "선형 회귀(Linear Regression)",
       "stage": "2단계 기초 ML",
       "next_preview": "로지스틱 회귀(Logistic Regression)의 개념과 원리"
+    },
+    {
+      "day": 6,
+      "date": "2026-08-02",
+      "topic": "로지스틱 회귀",
+      "stage": "2단계 기초 ML",
+      "next_preview": "결정 트리(Decision Tree)의 개념과 특징"
     }
   ]
 }
