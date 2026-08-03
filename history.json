@@ -1,5 +1,5 @@
 {
-  "day": 6,
+  "day": 7,
   "stage": "2단계 기초 ML",
   "topics": [
     {
@@ -43,6 +43,13 @@
       "topic": "로지스틱 회귀",
       "stage": "2단계 기초 ML",
       "next_preview": "결정 트리(Decision Tree)의 개념과 특징"
+    },
+    {
+      "day": 7,
+      "date": "2026-08-03",
+      "topic": "결정 트리(Decision Tree)",
+      "stage": "2단계 기초 ML",
+      "next_preview": "앙상블(Ensemble)과 랜덤 포레스트(Random Forest)"
     }
   ]
 }
