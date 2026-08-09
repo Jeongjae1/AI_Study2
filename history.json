@@ -1,5 +1,5 @@
 {
-  "day": 8,
+  "day": 9,
   "stage": "2단계 기초 ML",
   "topics": [
     {
@@ -57,6 +57,13 @@
       "topic": "앙상블과 랜덤 포레스트",
       "stage": "2단계 기초 ML",
       "next_preview": "머신러닝 평가지표(정확도, 정밀도, 재현율 등)"
+    },
+    {
+      "day": 9,
+      "date": "2026-08-09",
+      "topic": "분류 평가지표",
+      "stage": "2단계 기초 ML",
+      "next_preview": "교차 검증(Cross Validation)"
     }
   ]
 }
