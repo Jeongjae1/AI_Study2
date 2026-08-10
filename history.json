@@ -1,5 +1,5 @@
 {
-  "day": 9,
+  "day": 10,
   "stage": "2단계 기초 ML",
   "topics": [
     {
@@ -64,6 +64,13 @@
       "topic": "분류 평가지표",
       "stage": "2단계 기초 ML",
       "next_preview": "교차 검증(Cross Validation)"
+    },
+    {
+      "day": 10,
+      "date": "2026-08-10",
+      "topic": "교차 검증",
+      "stage": "2단계 기초 ML",
+      "next_preview": "딥러닝의 시작, 퍼셉트론(Perceptron)"
     }
   ]
 }
