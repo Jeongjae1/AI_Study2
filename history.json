@@ -1,6 +1,6 @@
 {
-  "day": 10,
-  "stage": "2단계 기초 ML",
+  "day": 11,
+  "stage": "3단계 딥러닝 기초",
   "topics": [
     {
       "day": 1,
@@ -71,6 +71,13 @@
       "topic": "교차 검증",
       "stage": "2단계 기초 ML",
       "next_preview": "딥러닝의 시작, 퍼셉트론(Perceptron)"
+    },
+    {
+      "day": 11,
+      "date": "2026-08-11",
+      "topic": "단층 퍼셉트론",
+      "stage": "3단계 딥러닝 기초",
+      "next_preview": "다층 퍼셉트론(MLP)"
     }
   ]
 }
