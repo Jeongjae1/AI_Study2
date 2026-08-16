@@ -1,5 +1,5 @@
 {
-  "day": 13,
+  "day": 14,
   "stage": "3단계 딥러닝 기초",
   "topics": [
     {
@@ -92,6 +92,13 @@
       "topic": "역전파(Backpropagation) 알고리즘",
       "stage": "3단계 딥러닝 기초",
       "next_preview": "활성화 함수(Activation Function)의 종류와 특성"
+    },
+    {
+      "day": 14,
+      "date": "2026-08-16",
+      "topic": "활성화 함수의 종류와 특성",
+      "stage": "3단계 딥러닝 기초",
+      "next_preview": "손실 함수(Loss Function)의 종류와 역할"
     }
   ]
 }
