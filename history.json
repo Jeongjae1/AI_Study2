@@ -1,5 +1,5 @@
 {
-  "day": 14,
+  "day": 15,
   "stage": "3단계 딥러닝 기초",
   "topics": [
     {
@@ -99,6 +99,13 @@
       "topic": "활성화 함수의 종류와 특성",
       "stage": "3단계 딥러닝 기초",
       "next_preview": "손실 함수(Loss Function)의 종류와 역할"
+    },
+    {
+      "day": 15,
+      "date": "2026-08-17",
+      "topic": "손실 함수의 종류와 역할",
+      "stage": "3단계 딥러닝 기초",
+      "next_preview": "옵티마이저(Optimizer)의 종류와 원리"
     }
   ]
 }
