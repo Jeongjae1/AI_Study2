@@ -1,5 +1,5 @@
 {
-  "day": 18,
+  "day": 19,
   "stage": "4단계 딥러닝 구조",
   "topics": [
     {
@@ -127,6 +127,13 @@
       "topic": "RNN과 LSTM의 구조와 원리",
       "stage": "4단계 딥러닝 구조",
       "next_preview": "워드 임베딩(Word Embedding)의 개념과 종류"
+    },
+    {
+      "day": 19,
+      "date": "2026-08-23",
+      "topic": "워드 임베딩(Word Embedding)",
+      "stage": "4단계 딥러닝 구조",
+      "next_preview": "정규화와 드롭아웃(Dropout)"
     }
   ]
 }
