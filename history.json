@@ -1,5 +1,5 @@
 {
-  "day": 19,
+  "day": 20,
   "stage": "4단계 딥러닝 구조",
   "topics": [
     {
@@ -134,6 +134,13 @@
       "topic": "워드 임베딩(Word Embedding)",
       "stage": "4단계 딥러닝 구조",
       "next_preview": "정규화와 드롭아웃(Dropout)"
+    },
+    {
+      "day": 20,
+      "date": "2026-08-24",
+      "topic": "정규화와 드롭아웃",
+      "stage": "4단계 딥러닝 구조",
+      "next_preview": "어텐션 메커니즘(Attention Mechanism)"
     }
   ]
 }
