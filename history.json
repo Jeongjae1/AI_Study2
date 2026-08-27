@@ -1,5 +1,5 @@
 {
-  "day": 21,
+  "day": 22,
   "stage": "4단계 딥러닝 구조",
   "topics": [
     {
@@ -148,6 +148,13 @@
       "topic": "어텐션 메커니즘(Attention Mechanism)",
       "stage": "4단계 딥러닝 구조",
       "next_preview": "트랜스포머(Transformer) 구조의 기본 원리"
+    },
+    {
+      "day": 22,
+      "date": "2026-08-27",
+      "topic": "트랜스포머 구조의 기본 원리",
+      "stage": "4단계 딥러닝 구조",
+      "next_preview": "BERT와 GPT의 구조적 차이"
     }
   ]
 }
