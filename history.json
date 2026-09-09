@@ -1,5 +1,5 @@
 {
-  "day": 30,
+  "day": 31,
   "stage": "4단계 딥러닝 구조",
   "topics": [
     {
@@ -211,6 +211,13 @@
       "topic": "사전학습(Pre-training)과 파인튜닝(Fine-tuning)",
       "stage": "4단계 딥러닝 구조",
       "next_preview": "디코더 전용 GPT 모델과 Causal Language Modeling의 원리"
+    },
+    {
+      "day": 31,
+      "date": "2026-09-09",
+      "topic": "디코더 전용 GPT 모델과 Causal Language Modeling의 원리",
+      "stage": "4단계 딥러닝 구조",
+      "next_preview": "인코더-디코더 모델과 Sequence-to-Sequence 학습"
     }
   ]
 }
