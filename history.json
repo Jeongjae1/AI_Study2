@@ -1,5 +1,5 @@
 {
-  "day": 31,
+  "day": 32,
   "stage": "4단계 딥러닝 구조",
   "topics": [
     {
@@ -218,6 +218,13 @@
       "topic": "디코더 전용 GPT 모델과 Causal Language Modeling의 원리",
       "stage": "4단계 딥러닝 구조",
       "next_preview": "인코더-디코더 모델과 Sequence-to-Sequence 학습"
+    },
+    {
+      "day": 32,
+      "date": "2026-09-10",
+      "topic": "인코더-디코더 모델과 Sequence-to-Sequence 학습",
+      "stage": "4단계 딥러닝 구조",
+      "next_preview": "5단계 진입: LLM 성능 향상의 법칙, Scaling Law"
     }
   ]
 }
