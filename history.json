@@ -1,6 +1,6 @@
 {
-  "day": 32,
-  "stage": "4단계 딥러닝 구조",
+  "day": 33,
+  "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
       "day": 1,
@@ -225,6 +225,13 @@
       "topic": "인코더-디코더 모델과 Sequence-to-Sequence 학습",
       "stage": "4단계 딥러닝 구조",
       "next_preview": "5단계 진입: LLM 성능 향상의 법칙, Scaling Law"
+    },
+    {
+      "day": 33,
+      "date": "2026-09-13",
+      "topic": "스케일링 로(Scaling Law)",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "효율적 파인튜닝 기법 LoRA의 원리"
     }
   ]
 }
