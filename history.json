@@ -1,5 +1,5 @@
 {
-  "day": 33,
+  "day": 34,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -232,6 +232,13 @@
       "topic": "스케일링 로(Scaling Law)",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "효율적 파인튜닝 기법 LoRA의 원리"
+    },
+    {
+      "day": 34,
+      "date": "2026-09-14",
+      "topic": "LoRA(Low-Rank Adaptation)의 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "양자화 기법과 QLoRA의 원리"
     }
   ]
 }
