@@ -1,5 +1,5 @@
 {
-  "day": 34,
+  "day": 35,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -239,6 +239,13 @@
       "topic": "LoRA(Low-Rank Adaptation)의 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "양자화 기법과 QLoRA의 원리"
+    },
+    {
+      "day": 35,
+      "date": "2026-09-15",
+      "topic": "양자화 기법과 QLoRA의 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "지시어 미세조정(Instruction Tuning)과 RLHF의 개념"
     }
   ]
 }
