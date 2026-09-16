@@ -1,5 +1,5 @@
 {
-  "day": 35,
+  "day": 36,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -246,6 +246,13 @@
       "topic": "양자화 기법과 QLoRA의 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "지시어 미세조정(Instruction Tuning)과 RLHF의 개념"
+    },
+    {
+      "day": 36,
+      "date": "2026-09-16",
+      "topic": "지시어 미세조정과 RLHF",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "프롬프트 엔지니어링과 CoT(Chain of Thought)의 원리"
     }
   ]
 }
