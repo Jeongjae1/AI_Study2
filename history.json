@@ -1,5 +1,5 @@
 {
-  "day": 36,
+  "day": 37,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -253,6 +253,13 @@
       "topic": "지시어 미세조정과 RLHF",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "프롬프트 엔지니어링과 CoT(Chain of Thought)의 원리"
+    },
+    {
+      "day": 37,
+      "date": "2026-09-17",
+      "topic": "프롬프트 엔지니어링과 CoT의 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "RAG(검색 증강 생성)의 원리"
     }
   ]
 }
