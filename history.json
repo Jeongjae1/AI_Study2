@@ -1,5 +1,5 @@
 {
-  "day": 37,
+  "day": 38,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -260,6 +260,13 @@
       "topic": "프롬프트 엔지니어링과 CoT의 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "RAG(검색 증강 생성)의 원리"
+    },
+    {
+      "day": 38,
+      "date": "2026-09-20",
+      "topic": "RAG(검색 증강 생성)의 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "벡터 임베딩과 벡터 데이터베이스(Vector DB)의 원리"
     }
   ]
 }
