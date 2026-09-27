@@ -1,5 +1,5 @@
 {
-  "day": 40,
+  "day": 41,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -281,6 +281,13 @@
       "topic": "하이브리드 검색과 리랭킹(Reranking)",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "RAG 평가지표와 RAGAS 프레임워크"
+    },
+    {
+      "day": 41,
+      "date": "2026-09-27",
+      "topic": "RAG 평가지표와 RAGAS 프레임워크",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "LLM 에이전트의 개념과 도구 사용"
     }
   ]
 }
