@@ -1,5 +1,5 @@
 {
-  "day": 41,
+  "day": 42,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -288,6 +288,13 @@
       "topic": "RAG 평가지표와 RAGAS 프레임워크",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LLM 에이전트의 개념과 도구 사용"
+    },
+    {
+      "day": 42,
+      "date": "2026-09-29",
+      "topic": "LLM 에이전트와 도구 사용의 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "멀티 에이전트 시스템의 개념과 협업 구조"
     }
   ]
 }
