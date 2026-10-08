@@ -1,5 +1,5 @@
 {
-  "day": 47,
+  "day": 48,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -330,6 +330,13 @@
       "topic": "LangChain의 메모리(Memory) 종류와 대화 컨텍스트 관리 기법",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LlamaIndex의 핵심 구조와 데이터 인덱싱 원리"
+    },
+    {
+      "day": 48,
+      "date": "2026-10-08",
+      "topic": "LlamaIndex의 핵심 구조와 데이터 인덱싱 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "RAG 모니터링 및 관측 가능성(Observability)과 Phoenix"
     }
   ]
 }
