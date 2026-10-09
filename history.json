@@ -1,5 +1,5 @@
 {
-  "day": 48,
+  "day": 49,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -337,6 +337,13 @@
       "topic": "LlamaIndex의 핵심 구조와 데이터 인덱싱 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "RAG 모니터링 및 관측 가능성(Observability)과 Phoenix"
+    },
+    {
+      "day": 49,
+      "date": "2026-10-09",
+      "topic": "RAG 모니터링 및 관측 가능성과 Phoenix",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "오픈소스 LLM 로컬 서빙을 위한 Ollama 원리와 사용법"
     }
   ]
 }
