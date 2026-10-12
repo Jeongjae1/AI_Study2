@@ -1,5 +1,5 @@
 {
-  "day": 49,
+  "day": 50,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -344,6 +344,13 @@
       "topic": "RAG 모니터링 및 관측 가능성과 Phoenix",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "오픈소스 LLM 로컬 서빙을 위한 Ollama 원리와 사용법"
+    },
+    {
+      "day": 50,
+      "date": "2026-10-12",
+      "topic": "오픈소스 LLM 로컬 서빙을 위한 Ollama 원리와 사용법",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "대규모 LLM 추론 최적화를 위한 vLLM과 PagedAttention 원리"
     }
   ]
 }
