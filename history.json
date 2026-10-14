@@ -1,5 +1,5 @@
 {
-  "day": 50,
+  "day": 51,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -351,6 +351,13 @@
       "topic": "오픈소스 LLM 로컬 서빙을 위한 Ollama 원리와 사용법",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "대규모 LLM 추론 최적화를 위한 vLLM과 PagedAttention 원리"
+    },
+    {
+      "day": 51,
+      "date": "2026-10-14",
+      "topic": "대규모 LLM 추론 가속을 위한 vLLM과 PagedAttention 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "LLM 추론 지연 시간을 획기적으로 줄이는 추측 디코딩(Speculative Decoding)의 원리"
     }
   ]
 }
