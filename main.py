@@ -1,10 +1,25 @@
 import os
+import sys
 import json
+import time
 import datetime
 import requests
 from google import genai
+from google.genai import errors
 
 HISTORY_FILE = "history.json"
+
+# 사용할 모델 순서 (앞에서부터 시도, 실패하면 다음 모델로)
+# - gemini-3.8-flash      : 현재 최신 Flash (메인)
+# - gemini-3.6-flash      : 1차 대체
+# - gemini-3.5-flash-lite : 2차 대체 (가볍고 혼잡에 강함)
+MODELS = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3.5-flash-lite"]
+
+# 재시도할 오류 코드: 429(호출 한도), 500(서버 오류), 503(서버 혼잡), 504(시간 초과)
+RETRY_CODES = (429, 500, 503, 504)
+# 다음 모델로 바로 넘어갈 오류 코드: 404(모델 없음/종료됨)
+SKIP_CODES = (404,)
+MAX_TRIES_PER_MODEL = 4  # 모델당 시도 횟수 (대기: 10 → 20 → 40초)
 
 # 전체 커리큘럼 로드맵 (입문 → 실무)
 CURRICULUM = """
@@ -29,6 +44,52 @@ def load_history():
 def save_history(history):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
+
+
+def send_telegram(text):
+    """텔레그램 전송. 실패하면 예외 발생."""
+    resp = requests.post(
+        f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage",
+        json={"chat_id": os.environ["TELEGRAM_CHAT_ID"], "text": text},
+        timeout=30,
+    )
+    resp.raise_for_status()
+
+
+def generate_with_retry(client, prompt):
+    """
+    모델 여러 개를 순서대로 시도하며, 일시적 오류는 기다렸다가 재시도.
+    (식당이 만석이면 잠깐 기다렸다 다시 가보고, 계속 만석이면 옆 식당으로)
+    """
+    last_err = None
+    for model in MODELS:
+        for attempt in range(1, MAX_TRIES_PER_MODEL + 1):
+            try:
+                print(f"[{model}] 시도 {attempt}/{MAX_TRIES_PER_MODEL}")
+                response = client.models.generate_content(model=model, contents=prompt)
+                text = (response.text or "").strip()
+                if not text:
+                    raise ValueError("빈 응답")
+                print(f"[{model}] 성공")
+                return text
+            except errors.APIError as e:
+                last_err = e
+                if e.code in SKIP_CODES:
+                    print(f"[{model}] {e.code} 사용 불가 모델 → 다음 모델로")
+                    break
+                if e.code not in RETRY_CODES:
+                    raise  # 키 오류(401/403) 등은 재시도해도 소용없으므로 바로 중단
+                print(f"[{model}] {e.code} 오류: {e.message}")
+            except ValueError as e:
+                last_err = e
+                print(f"[{model}] {e}")
+
+            if attempt < MAX_TRIES_PER_MODEL:
+                wait = 10 * 2 ** (attempt - 1)  # 10 → 20 → 40초
+                print(f"  {wait}초 후 재시도")
+                time.sleep(wait)
+        print(f"[{model}] 계속 실패 → 다음 모델로 전환")
+    raise RuntimeError(f"모든 모델 실패. 마지막 오류: {last_err}")
 
 
 history = load_history()
@@ -110,14 +171,18 @@ prompt = f"""
 답변은 800자 이내의 한국어로 작성한다.
 """
 
-response = client.models.generate_content(
-    model="gemini-3.5-flash",
-    contents=prompt,
-)
+# 1) 콘텐츠 생성 (재시도 + 대체 모델)
+try:
+    message = generate_with_retry(client, prompt)
+except Exception as e:
+    print(f"콘텐츠 생성 실패: {e}")
+    try:
+        send_telegram(f"⚠️ AI Morning Brief 생성 실패 (Day {day_no})\nGemini 서버 혼잡으로 오늘 발송을 못 했어요.\n{e}")
+    except Exception:
+        pass
+    sys.exit(1)
 
-message = response.text or ""
-
-# [META] 라인 파싱해서 이력 갱신
+# 2) [META] 라인 파싱
 topic = "미확인"
 stage = history["stage"]
 next_preview = ""
@@ -141,7 +206,10 @@ clean_message = "\n".join(
     l for l in message.splitlines() if not l.strip().startswith("[META]")
 ).strip()
 
-# 이력 갱신
+# 3) 텔레그램 전송 (성공했을 때만 이력 저장 → 못 받은 주제가 '학습함'으로 기록되지 않게)
+send_telegram(clean_message)
+
+# 4) 이력 갱신
 history["day"] = day_no
 history["stage"] = stage
 history["topics"].append({
@@ -152,12 +220,4 @@ history["topics"].append({
     "next_preview": next_preview,
 })
 save_history(history)
-
-# 텔레그램 전송
-requests.post(
-    f"https://api.telegram.org/bot{os.environ['TELEGRAM_BOT_TOKEN']}/sendMessage",
-    json={
-        "chat_id": os.environ["TELEGRAM_CHAT_ID"],
-        "text": clean_message,
-    },
-)
+print(f"완료: Day {day_no} - {topic}")
