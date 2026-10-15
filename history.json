@@ -1,5 +1,5 @@
 {
-  "day": 52,
+  "day": 53,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -365,6 +365,13 @@
       "topic": "추측 디코딩(Speculative Decoding)의 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LLM의 출력을 안정적인 API 및 시스템과 결합하는 구조화된 출력(Structured Outputs)과 JSON Mode의 원리"
+    },
+    {
+      "day": 53,
+      "date": "2026-10-15",
+      "topic": "LLM 구조화된 출력(Structured Outputs)과 JSON Mode의 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "LLM 입력과 출력의 안정성을 검증하는 Guardrails 기술"
     }
   ]
 }
