@@ -1,5 +1,5 @@
 {
-  "day": 53,
+  "day": 54,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -372,6 +372,13 @@
       "topic": "LLM 구조화된 출력(Structured Outputs)과 JSON Mode의 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LLM 입력과 출력의 안정성을 검증하는 Guardrails 기술"
+    },
+    {
+      "day": 54,
+      "date": "2026-10-18",
+      "topic": "LLM 가드레일(Guardrails) 기술과 입출력 검증",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "LLM 응답 지연과 API 비용을 대폭 줄여주는 시맨틱 캐싱(Semantic Caching)의 원리"
     }
   ]
 }
