@@ -1,5 +1,5 @@
 {
-  "day": 54,
+  "day": 55,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -379,6 +379,13 @@
       "topic": "LLM 가드레일(Guardrails) 기술과 입출력 검증",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LLM 응답 지연과 API 비용을 대폭 줄여주는 시맨틱 캐싱(Semantic Caching)의 원리"
+    },
+    {
+      "day": 55,
+      "date": "2026-10-20",
+      "topic": "시맨틱 캐싱(Semantic Caching)의 원리와 활용",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "RAG 검색 품질을 결정짓는 청킹(Chunking) 전략과 텍스트 분할 기법"
     }
   ]
 }
