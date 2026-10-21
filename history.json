@@ -1,5 +1,5 @@
 {
-  "day": 56,
+  "day": 57,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -393,6 +393,13 @@
       "topic": "RAG 청킹 전략과 텍스트 분할 기법",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "부모 문서 검색기(Parent Document Retriever) 기법"
+    },
+    {
+      "day": 57,
+      "date": "2026-10-21",
+      "topic": "부모 문서 검색기(Parent Document Retriever)",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "질의 변환 기법: Multi-Query와 RAG-Fusion"
     }
   ]
 }
