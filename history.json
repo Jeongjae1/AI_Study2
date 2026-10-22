@@ -1,5 +1,5 @@
 {
-  "day": 57,
+  "day": 58,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -400,6 +400,13 @@
       "topic": "부모 문서 검색기(Parent Document Retriever)",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "질의 변환 기법: Multi-Query와 RAG-Fusion"
+    },
+    {
+      "day": 58,
+      "date": "2026-10-22",
+      "topic": "질의 변환 기법: Multi-Query와 RAG-Fusion",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "HyDE(Hypothetical Document Embeddings)의 원리와 활용"
     }
   ]
 }
