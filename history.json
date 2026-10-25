@@ -1,5 +1,5 @@
 {
-  "day": 58,
+  "day": 59,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -407,6 +407,13 @@
       "topic": "질의 변환 기법: Multi-Query와 RAG-Fusion",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "HyDE(Hypothetical Document Embeddings)의 원리와 활용"
+    },
+    {
+      "day": 59,
+      "date": "2026-10-25",
+      "topic": "HyDE(Hypothetical Document Embeddings)의 원리와 활용",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "지식 그래프를 결합한 GraphRAG의 개념과 원리"
     }
   ]
 }
