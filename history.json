@@ -1,5 +1,5 @@
 {
-  "day": 59,
+  "day": 60,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -414,6 +414,13 @@
       "topic": "HyDE(Hypothetical Document Embeddings)의 원리와 활용",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "지식 그래프를 결합한 GraphRAG의 개념과 원리"
+    },
+    {
+      "day": 60,
+      "date": "2026-10-27",
+      "topic": "지식 그래프를 결합한 GraphRAG의 개념과 원리",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "LLM 파인튜닝을 위한 고품질 데이터셋 구축 및 정제 전략"
     }
   ]
 }
