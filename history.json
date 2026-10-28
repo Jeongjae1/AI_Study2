@@ -1,5 +1,5 @@
 {
-  "day": 60,
+  "day": 61,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -421,6 +421,13 @@
       "topic": "지식 그래프를 결합한 GraphRAG의 개념과 원리",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LLM 파인튜닝을 위한 고품질 데이터셋 구축 및 정제 전략"
+    },
+    {
+      "day": 61,
+      "date": "2026-10-28",
+      "topic": "LLM 파인튜닝을 위한 고품질 데이터셋 구축 및 정제 전략",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "Hugging Face TRL과 SFTTrainer를 활용한 오픈소스 LLM 파인튜닝 실전"
     }
   ]
 }
