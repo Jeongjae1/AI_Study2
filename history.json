@@ -1,5 +1,5 @@
 {
-  "day": 61,
+  "day": 62,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -428,6 +428,13 @@
       "topic": "LLM 파인튜닝을 위한 고품질 데이터셋 구축 및 정제 전략",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "Hugging Face TRL과 SFTTrainer를 활용한 오픈소스 LLM 파인튜닝 실전"
+    },
+    {
+      "day": 62,
+      "date": "2026-10-29",
+      "topic": "Hugging Face TRL과 SFTTrainer를 활용한 오픈소스 LLM 파인튜닝 실전",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "DPO(Direct Preference Optimization)를 활용한 인간 선호도 정렬 실전"
     }
   ]
 }
