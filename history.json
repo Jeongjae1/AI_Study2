@@ -1,5 +1,5 @@
 {
-  "day": 62,
+  "day": 63,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -435,6 +435,13 @@
       "topic": "Hugging Face TRL과 SFTTrainer를 활용한 오픈소스 LLM 파인튜닝 실전",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "DPO(Direct Preference Optimization)를 활용한 인간 선호도 정렬 실전"
+    },
+    {
+      "day": 63,
+      "date": "2026-10-30",
+      "topic": "DPO(Direct Preference Optimization)를 활용한 인간 선호도 정렬 실전",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "파인튜닝된 LLM의 객관적 성능 검증을 위한 벤치마크 평가 프레임워크(lm-evaluation-harness) 실전"
     }
   ]
 }
