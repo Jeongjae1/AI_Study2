@@ -1,5 +1,5 @@
 {
-  "day": 64,
+  "day": 65,
   "stage": "5단계 트랜스포머/LLM",
   "topics": [
     {
@@ -449,6 +449,13 @@
       "topic": "LLM 벤치마크 평가 프레임워크(lm-evaluation-harness)",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "LLM 양자화 포맷(GGUF, AWQ, GPTQ) 변환 및 최적화 기법"
+    },
+    {
+      "day": 65,
+      "date": "2026-11-03",
+      "topic": "LLM 양자화 포맷(GGUF, AWQ, GPTQ) 변환 및 최적화 기법",
+      "stage": "5단계 트랜스포머/LLM",
+      "next_preview": "[6단계 LLM 실무] 복잡한 지식 탐색을 위한 Agentic RAG의 개념과 워크플로우"
     }
   ]
 }
