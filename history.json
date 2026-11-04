@@ -1,6 +1,6 @@
 {
-  "day": 65,
-  "stage": "5단계 트랜스포머/LLM",
+  "day": 66,
+  "stage": "6단계 LLM 실무",
   "topics": [
     {
       "day": 1,
@@ -456,6 +456,13 @@
       "topic": "LLM 양자화 포맷(GGUF, AWQ, GPTQ) 변환 및 최적화 기법",
       "stage": "5단계 트랜스포머/LLM",
       "next_preview": "[6단계 LLM 실무] 복잡한 지식 탐색을 위한 Agentic RAG의 개념과 워크플로우"
+    },
+    {
+      "day": 66,
+      "date": "2026-11-04",
+      "topic": "Agentic RAG의 개념과 자율 워크플로우",
+      "stage": "6단계 LLM 실무",
+      "next_preview": "[6단계 LLM 실무] LangGraph를 활용한 상태 기반(Stateful) 멀티 에이전트 RAG 구현"
     }
   ]
 }
