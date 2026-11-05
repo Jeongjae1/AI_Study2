@@ -1,5 +1,5 @@
 {
-  "day": 66,
+  "day": 67,
   "stage": "6단계 LLM 실무",
   "topics": [
     {
@@ -463,6 +463,13 @@
       "topic": "Agentic RAG의 개념과 자율 워크플로우",
       "stage": "6단계 LLM 실무",
       "next_preview": "[6단계 LLM 실무] LangGraph를 활용한 상태 기반(Stateful) 멀티 에이전트 RAG 구현"
+    },
+    {
+      "day": 67,
+      "date": "2026-11-05",
+      "topic": "LangGraph 기반 상태형 에이전트 워크플로우",
+      "stage": "6단계 LLM 실무",
+      "next_preview": "[6단계 LLM 실무] LLM 애플리케이션 추적 및 관측을 위한 LangSmith 실전 활용"
     }
   ]
 }
