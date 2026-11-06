@@ -1,5 +1,5 @@
 {
-  "day": 67,
+  "day": 68,
   "stage": "6단계 LLM 실무",
   "topics": [
     {
@@ -470,6 +470,13 @@
       "topic": "LangGraph 기반 상태형 에이전트 워크플로우",
       "stage": "6단계 LLM 실무",
       "next_preview": "[6단계 LLM 실무] LLM 애플리케이션 추적 및 관측을 위한 LangSmith 실전 활용"
+    },
+    {
+      "day": 68,
+      "date": "2026-11-06",
+      "topic": "LLM 애플리케이션 추적 및 관측을 위한 LangSmith 실전 활용",
+      "stage": "6단계 LLM 실무",
+      "next_preview": "[6단계 LLM 실무] CrewAI를 활용한 역할 기반 멀티 에이전트 시스템 실전 구현"
     }
   ]
 }
