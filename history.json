@@ -1,5 +1,5 @@
 {
-  "day": 68,
+  "day": 69,
   "stage": "6단계 LLM 실무",
   "topics": [
     {
@@ -477,6 +477,13 @@
       "topic": "LLM 애플리케이션 추적 및 관측을 위한 LangSmith 실전 활용",
       "stage": "6단계 LLM 실무",
       "next_preview": "[6단계 LLM 실무] CrewAI를 활용한 역할 기반 멀티 에이전트 시스템 실전 구현"
+    },
+    {
+      "day": 69,
+      "date": "2026-11-09",
+      "topic": "CrewAI를 활용한 역할 기반 멀티 에이전트 시스템 실전 구현",
+      "stage": "6단계 LLM 실무",
+      "next_preview": "[6단계 LLM 실무] Text-to-SQL: 자연어로 사내 데이터베이스를 조회하는 LLM 시스템 구축"
     }
   ]
 }
