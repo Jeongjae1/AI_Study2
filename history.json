@@ -1,5 +1,5 @@
 {
-  "day": 69,
+  "day": 70,
   "stage": "6단계 LLM 실무",
   "topics": [
     {
@@ -484,6 +484,13 @@
       "topic": "CrewAI를 활용한 역할 기반 멀티 에이전트 시스템 실전 구현",
       "stage": "6단계 LLM 실무",
       "next_preview": "[6단계 LLM 실무] Text-to-SQL: 자연어로 사내 데이터베이스를 조회하는 LLM 시스템 구축"
+    },
+    {
+      "day": 70,
+      "date": "2026-11-10",
+      "topic": "Text-to-SQL: 자연어로 사내 데이터베이스를 조회하는 LLM 시스템 구축",
+      "stage": "6단계 LLM 실무",
+      "next_preview": "[7단계 MLOps/배포] FastAPI와 Uvicorn을 활용한 LLM 서빙 API 서버 구축"
     }
   ]
 }
