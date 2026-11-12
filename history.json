@@ -1,5 +1,5 @@
 {
-  "day": 71,
+  "day": 72,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -498,6 +498,13 @@
       "topic": "FastAPI와 Uvicorn을 활용한 LLM 서빙 API 서버 구축",
       "stage": "7단계 MLOps/배포",
       "next_preview": "Docker 컨테이너화를 통한 LLM 애플리케이션 패키징 및 배포 환경 격리"
+    },
+    {
+      "day": 72,
+      "date": "2026-11-12",
+      "topic": "Docker를 활용한 LLM 애플리케이션 컨테이너화",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "Kubernetes(K8s)를 활용한 대규모 LLM 서빙 클러스터링 및 오토스케일링 기본 원리"
     }
   ]
 }
