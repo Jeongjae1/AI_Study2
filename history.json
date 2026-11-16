@@ -1,5 +1,5 @@
 {
-  "day": 73,
+  "day": 74,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -512,6 +512,13 @@
       "topic": "Kubernetes 기반 LLM 서빙 및 오토스케일링",
       "stage": "7단계 MLOps/배포",
       "next_preview": "Triton Inference Server를 활용한 고성능 다중 모델 서빙 및 GPU 자원 최적화"
+    },
+    {
+      "day": 74,
+      "date": "2026-11-16",
+      "topic": "NVIDIA Triton Inference Server를 활용한 고성능 다중 모델 서빙",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "MLflow를 활용한 모델 레지스트리 구축 및 수명 주기 관리"
     }
   ]
 }
