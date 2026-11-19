@@ -1,5 +1,5 @@
 {
-  "day": 75,
+  "day": 76,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -526,6 +526,13 @@
       "topic": "MLflow를 활용한 모델 레지스트리 구축 및 수명 주기 관리",
       "stage": "7단계 MLOps/배포",
       "next_preview": "데이터 및 모델 드리프트 감지와 모니터링 실전"
+    },
+    {
+      "day": 76,
+      "date": "2026-11-19",
+      "topic": "데이터 및 모델 드리프트 감지와 모니터링 실전",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "Kubeflow Pipelines를 활용한 엔드투엔드 ML 파이프라인 자동화"
     }
   ]
 }
