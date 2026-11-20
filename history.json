@@ -1,5 +1,5 @@
 {
-  "day": 76,
+  "day": 77,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -533,6 +533,13 @@
       "topic": "데이터 및 모델 드리프트 감지와 모니터링 실전",
       "stage": "7단계 MLOps/배포",
       "next_preview": "Kubeflow Pipelines를 활용한 엔드투엔드 ML 파이프라인 자동화"
+    },
+    {
+      "day": 77,
+      "date": "2026-11-20",
+      "topic": "Kubeflow Pipelines를 활용한 엔드투엔드 ML 파이프라인 자동화",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "무중단 모델 교체를 위한 카나리(Canary) 배포와 A/B 테스팅 전략"
     }
   ]
 }
