@@ -1,5 +1,5 @@
 {
-  "day": 77,
+  "day": 78,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -540,6 +540,13 @@
       "topic": "Kubeflow Pipelines를 활용한 엔드투엔드 ML 파이프라인 자동화",
       "stage": "7단계 MLOps/배포",
       "next_preview": "무중단 모델 교체를 위한 카나리(Canary) 배포와 A/B 테스팅 전략"
+    },
+    {
+      "day": 78,
+      "date": "2026-11-23",
+      "topic": "카나리 배포와 A/B 테스팅 전략",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "Prometheus와 Grafana를 활용한 LLM 및 ML 서비스 실시간 모니터링 구축"
     }
   ]
 }
