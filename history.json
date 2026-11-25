@@ -1,5 +1,5 @@
 {
-  "day": 79,
+  "day": 80,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -554,6 +554,13 @@
       "topic": "Prometheus와 Grafana를 활용한 LLM/ML 서비스 실시간 모니터링",
       "stage": "7단계 MLOps/배포",
       "next_preview": "머신러닝 피처의 일관된 서빙과 재사용을 위한 피처 스토어(Feature Store)와 Feast"
+    },
+    {
+      "day": 80,
+      "date": "2026-11-25",
+      "topic": "피처 스토어(Feature Store)와 Feast",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "MLOps 지속적 학습을 위한 CI/CD/CT 파이프라인 구축 및 자동 재학습 전략"
     }
   ]
 }
