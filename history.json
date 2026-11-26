@@ -1,5 +1,5 @@
 {
-  "day": 80,
+  "day": 81,
   "stage": "7단계 MLOps/배포",
   "topics": [
     {
@@ -561,6 +561,13 @@
       "topic": "피처 스토어(Feature Store)와 Feast",
       "stage": "7단계 MLOps/배포",
       "next_preview": "MLOps 지속적 학습을 위한 CI/CD/CT 파이프라인 구축 및 자동 재학습 전략"
+    },
+    {
+      "day": 81,
+      "date": "2026-11-26",
+      "topic": "CI/CD/CT 파이프라인과 자동 재학습(Continuous Training)",
+      "stage": "7단계 MLOps/배포",
+      "next_preview": "MLOps에서 LLMOps로: LLM 수명 주기 관리 및 비용 최적화(FinOps) 전략"
     }
   ]
 }
